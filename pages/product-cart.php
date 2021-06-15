@@ -149,7 +149,7 @@
                             </div>
                             <div class="grand-total"><span>Grand Total: </span><span class="price">$<?= totalPrice($cart) ?></span>
                             </div>
-                            <div class="checkout-btn"><i class="far fa-check"></i>Proceed to checkout</div>
+                            <div class="checkout-btn"><a href="index.php?link=check-out"><i class="far fa-check"></i>Proceed to checkout</a></div>
                         </div>
                     </div>
                 </div>

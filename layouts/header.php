@@ -2,8 +2,9 @@
 ob_start();
 session_start();
 if (isset($_SESSION['accountCustomer'])) {
-    $name = $_SESSION['accountCustomer'];
+    $account = $_SESSION['accountCustomer'];
 }
+
 ?>
 
 <!DOCTYPE html>
